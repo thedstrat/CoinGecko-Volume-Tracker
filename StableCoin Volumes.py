@@ -88,11 +88,6 @@ reg.fit(x_train, y_train)
 accuracy = reg.score(x_test, y_test)
 print(accuracy)
 
-reg = linear_model.LinearRegression()
-reg.fit(dates, dai_json2)
-m = reg.coef_[0] #slope
-b = reg.intercept_ #y-intercept
-predicted_values = [reg.coef_*i + reg.intercept_ for i in dai_json2] # how to make this an array of regression values?
 '''
 
 # Create the figure p
