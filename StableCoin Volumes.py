@@ -2,8 +2,6 @@ import urllib.parse
 import requests
 import json
 import pandas
-import numpy as np
-
 
 # PART 1 ------------------------------------------------------------------
 
