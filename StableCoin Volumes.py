@@ -87,7 +87,6 @@ reg = LinearRegression()
 reg.fit(x_train, y_train)
 accuracy = reg.score(x_test, y_test)
 print(accuracy)
-
 '''
 
 # Create the figure p
